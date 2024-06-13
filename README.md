@@ -49,6 +49,6 @@ Submit your document and GitHub repository link through the designated platform 
 - Effectiveness of version control implementation.
 - Appropriateness of tools selected for the project requirements.
 - Clarity of reflection on challenges and solutions encountered.
-- Adherence to submission guidelines and deadlines.
+- Adherence to submission guidelines and deadlines.   m
 
 Note: Feel free to reach out for clarification or assistance with any aspect of the assignment.
