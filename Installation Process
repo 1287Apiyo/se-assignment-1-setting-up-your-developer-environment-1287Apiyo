@@ -1,0 +1,90 @@
+
+## Developer Environment Setup Documentation
+
+### Step-by-Step Instructions
+
+#### 1. Selecting and Installing Windows 11
+
+1. Go to the [Windows 11 download page](https://www.microsoft.com/software-download/windows11).
+2. Click on the "Download Now" button to get the Installation Assistant.
+3. Run the Installation Assistant and follow the on-screen instructions to upgrade your system to Windows 11.
+4. Restart your computer to complete the installation.
+
+#### 2. Installing Visual Studio Code
+
+1. Visit the [Visual Studio Code download page](https://code.visualstudio.com/Download).
+2. Choose the version appropriate for your operating system and download it.
+3. Run the installer and follow the prompts to complete the installation.
+4. Launch Visual Studio Code and customize settings according to your preferences.
+
+#### 3. Setting Up Version Control
+
+**Install Git:**
+1. Download Git from [Git-SCM](https://git-scm.com/downloads).
+2. Run the installer and follow the prompts, leaving default settings as is.
+
+**Configure Git:**
+1. Open Git Bash.
+2. Set your username and email:
+   ```bash
+   git config --global user.name "Your Name"
+   git config --global user.email "your.email@example.com"
+   ```
+
+**Create a GitHub Account:**
+1. Sign up at [GitHub](https://github.com).
+
+**Initialize a Git Repository:**
+1. Create a new project directory:
+   ```bash
+   mkdir my_project
+   cd my_project
+   ```
+2. Initialize Git:
+   ```bash
+   git init
+   ```
+3. Make your first commit:
+   ```bash
+   echo "# My Project" > README.md
+   git add README.md
+   git commit -m "Initial commit"
+   ```
+
+#### 4. Installing Python
+
+1. Download Python from [Python.org](http://www.python.org).
+2. Run the installer and ensure you check the option to add Python to PATH.
+3. Verify the installation:
+   ```bash
+   python --version
+   pip --version
+   ```
+
+#### 5. Installing MySQL
+
+1. Download MySQL Installer from the [MySQL download page](https://dev.mysql.com/downloads/windows/installer/5.7.html).
+2. Run the installer and follow the instructions to set up MySQL on your machine.
+3. During the setup, create a root password and configure other necessary settings.
+
+#### 6. Optional: Setting Up Docker
+
+1. Download Docker Desktop from [Docker](https://www.docker.com/products/docker-desktop).
+2. Run the installer and follow the instructions to set up Docker on your machine.
+3. Verify the installation:
+   ```bash
+   docker --version
+   ```
+
+#### 7. Exploring Extensions and Plugins for VS Code
+
+1. Open Visual Studio Code.
+2. Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window.
+3. Search for and install the following extensions:
+   - Python
+   - GitLens
+   - Docker
+   - ESLint
+
+
+
